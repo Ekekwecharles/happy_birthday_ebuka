@@ -193,7 +193,7 @@ button {
 
 @media (max-height: 850px) and (max-width: 400px) {
   .banner .content {
-    bottom: 100px;
+    bottom: 80px;
   }
 
   .btn {
