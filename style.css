@@ -207,7 +207,7 @@ button {
 
 @media (max-height: 700px) and (max-width: 400px) {
   .banner .content {
-    margin: 20px;
+    margin: 10px;
     padding-bottom: 0;
     bottom: 0;
   }
