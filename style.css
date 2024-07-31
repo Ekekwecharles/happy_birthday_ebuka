@@ -150,6 +150,14 @@ button {
   transform: translate(-50%, -50%);
 }
 
+.adjust--1 {
+  object-position: top;
+}
+
+.adjust--2 {
+  object-position: right;
+}
+
 @media (pointer: coarse) {
   .btn {
     display: block;
@@ -175,6 +183,24 @@ button {
     font-weight: 900;
     font-size: 0.9em;
     width: 95%;
-    padding-bottom: 20%;
+    padding-bottom: 15%;
+  }
+
+  .btn {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-height: 800px) and (max-width: 400px) {
+  .banner .content {
+    padding-bottom: 2px;
+  }
+
+  .btn {
+    transform: translateY(-75px);
+  }
+
+  .banner .slider {
+    top: 15%;
   }
 }
