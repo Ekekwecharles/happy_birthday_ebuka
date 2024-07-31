@@ -191,9 +191,9 @@ button {
   }
 }
 
-@media (max-height: 800px) and (max-width: 400px) {
+@media (max-height: 850px) and (max-width: 400px) {
   .banner .content {
-    padding-bottom: 2px;
+    bottom: 100px;
   }
 
   .btn {
@@ -202,5 +202,12 @@ button {
 
   .banner .slider {
     top: 15%;
+  }
+}
+
+@media (max-height: 700px) and (max-width: 400px) {
+  .banner .content {
+    padding-bottom: 0;
+    bottom: 0;
   }
 }
